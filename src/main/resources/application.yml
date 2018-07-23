@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+logging:
+  level:
+    io.swagger.models.parameters.AbstractSerializableParameter: ERROR
+#    org.hibernate.type: TRACE
+#    org.hibernate.type.descriptor.sql: TRACE
